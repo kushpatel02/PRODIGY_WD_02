@@ -1,0 +1,43 @@
+body {
+    background: #0d0d0d;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+}
+.watch {
+    margin: 30px auto;
+    color: #b5b5b5;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+.watch a{
+    text-align: center;
+    font-size: 50rem;    
+}
+#seconds, #tens {
+    font-size: 50rem;
+}
+button {
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    background: #696692;
+    color: #0d0d0d;
+    font-weight: 700;
+    border: solid 5px #b5b5b5;
+    cursor: pointer;
+    font-size: 1.8em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+}
+button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: #b5b5b5;
+    border: solid 5px #696692;
+}
